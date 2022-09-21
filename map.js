@@ -13,6 +13,8 @@ const full_name = name.map((person)=>{
 });
 
 
+// map() does not change the original Array
+
 console.log(name);  //["Brian", "Chanida", "Geoffrey"]
 console.log(full_name); //["Brian Garton", "Chanida Garton", "Geoffrey"];
 
